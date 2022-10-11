@@ -36,3 +36,19 @@ const stats = {
   }
   
   const failuresList = makeList(result.failure);
+
+  //Object Literal Declaration
+
+//   const createPerson = (name, age, gender) => {
+//     return {
+//       name: name,
+//       age: age,
+//       gender: gender
+//     };
+//   };
+
+  const createPerson = (name, age, gender) => ({
+    name,
+    age,
+    gender
+  });
